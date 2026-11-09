@@ -119,23 +119,23 @@ Build a reliable, replaceable data collection and storage layer.
 
 ## Canonical Data Model
 
-- [ ] Define canonical `Game` schema.
-- [ ] Define canonical `Team` schema.
-- [ ] Define canonical `Player` schema.
-- [ ] Define canonical `TeamGame` schema.
-- [ ] Define canonical `PlayerGame` schema.
+- [x] Define canonical `Game` schema.
+- [x] Define canonical `Team` schema.
+- [x] Define canonical `Player` schema.
+- [x] Define canonical `TeamGame` schema.
+- [x] Define canonical `PlayerGame` schema.
 - [ ] Define canonical `InjuryReport` schema.
 - [ ] Define canonical `OddsSnapshot` schema.
 - [ ] Define canonical `Prediction` schema.
 - [ ] Define canonical `Experiment` schema.
-- [ ] Define stable identifiers and entity relationships.
-- [ ] Define timezone and timestamp conventions.
+- [x] Define stable identifiers and entity relationships.
+- [x] Define timezone and timestamp conventions.
 - [ ] Define schema versioning and migration rules.
 
 ## Temporal Data Integrity
 
-- [ ] Define `event_time`.
-- [ ] Define `available_at`.
+- [x] Define `event_time`.
+- [x] Define `available_at`.
 - [ ] Define `prediction_timestamp`.
 - [ ] Preserve source publication and collection timestamps where possible.
 - [ ] Ensure historical features only use information available at prediction time.
@@ -146,8 +146,8 @@ Build a reliable, replaceable data collection and storage layer.
 
 ## Storage
 
-- [ ] Establish a partitioned Parquet dataset layout.
-- [ ] Implement DuckDB query access.
+- [x] Establish a partitioned Parquet dataset layout.
+- [x] Implement DuckDB query access.
 - [ ] Separate raw, normalized, and derived datasets.
 - [ ] Define dataset naming and versioning conventions.
 - [ ] Implement data manifests and metadata.
