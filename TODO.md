@@ -56,31 +56,15 @@ Understand what data exists, what can be collected, and what can legitimately be
 
 ## Data Source Research
 
-- [ ] Identify reliable sources for historical NBA game results.
-- [ ] Identify sources for team-level statistics.
-- [ ] Identify sources for player-level statistics.
-- [ ] Investigate NBA API endpoint coverage and limitations.
-- [ ] Investigate supplementary data sources.
 - [ ] Identify sources for player injuries and availability.
 - [ ] Investigate historical injury-report availability.
-- [ ] Identify sources for schedules, venues, and game metadata.
 - [ ] Identify historical betting odds sources.
 - [ ] Investigate player prop market data availability.
 - [ ] Investigate historical odds snapshot coverage and timestamp granularity.
-- [ ] Review data licensing, redistribution, and usage restrictions.
 
 ## Dataset Coverage
 
-- [ ] Create `docs/datasets/COVERAGE.md`.
-- [ ] Record the earliest and latest available seasons for each source.
-- [ ] Record update frequency and collection limitations.
-- [ ] Record whether historical publication timestamps are available.
-- [ ] Distinguish raw observations from derived statistics.
-- [ ] Identify missing seasons, teams, players, and markets.
-- [ ] Identify potential data leakage in available datasets.
-- [ ] Identify survivorship and selection biases.
 - [ ] Define the minimum viable historical dataset.
-- [ ] Document known gaps and their consequences.
 
 ## Research Decisions
 
